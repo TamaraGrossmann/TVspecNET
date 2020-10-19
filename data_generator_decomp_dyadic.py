@@ -11,7 +11,9 @@
 # Author: Tamara G. Grossmann (2020), tg410@cam.ac.uk
 # This code was amended from Kai Zhang (08/2018) https://github.com/cszn/DnCNN
 #
-# Code for the data generator of training data from .mat data type images. Each input image is assumed to be in an individual folder in which 50 ground truth decomposed bands are stored. The GT bands will be combined to 6 dyadic bands in this implementation. 
+# Code for the data generator of training data from .mat data type images. Each input image is assumed to be in an individual 
+# folder in which 50 ground truth decomposed bands are stored. The GT bands will be combined to 6 dyadic bands in this 
+# implementation. 
 # PyTorch Version 1.1.0 used for this implementation. 
 # ----------------------------------------------------------------------------------------------------------------------------
 import os, glob
