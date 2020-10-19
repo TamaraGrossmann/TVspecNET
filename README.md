@@ -36,7 +36,7 @@ conda env create --file TVspecNET.yml
 conda activate TVspecNET
 ```
 
-A dataset for training or testing the network is not provided in this repository, but can be easily generated from e.g. MS COCO [[1]](#1) using the model-driven approach by Gilboa [[2](#2),[3](#3)]. Our code takes .mat files as the input, since the model-driven code is written in Matlab.
+A dataset for training or testing the network is not provided in this repository, but can be easily generated from e.g. MS COCO [[1]](#1) using the model-driven approach by Gilboa [[2](#2),[3](#3)] ([code](https://guygilboa.net.technion.ac.il/2020/10/09/spectral-total-variation-color/)). Our code takes .mat files as the input, since the model-driven code is written in Matlab.
 
 ## Training
 
