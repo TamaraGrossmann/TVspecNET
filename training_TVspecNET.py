@@ -1,4 +1,4 @@
-# ---------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------------------------------
 # @article{grossmann2020,
 #    title={Deeply Learned Spectral Total Variation Decomposition},
 #    author={Tamara G. Grossmann and Yury Korolev and Guy Gilboa and Carola-Bibiane Schönlieb},
@@ -13,13 +13,16 @@
 # The U-Net basis architecture for U-TVspecNET is taken from Naoto Usuyama (2018) https://github.com/usuyama/pytorch-unet/, and 
 # the FFDNet basis architecture for F-TVspecNET is taken from Kai Zhang (2019) https://github.com/cszn/KAIR
 #
-# The following code is to train the TVspecNET model on .mat data type images (see data generator). The default loss functional is set to the normalised MSE between the ground truth (GT) and the network output. However, we include code for adding the normalised MSE of the image gradients of the GT and network output, and the MSE between the input image and the sum over all output images to the loss functional. Please uncomment the corresponding lines (see ll.416-421, ll.442-447, ll.476-481, ll.502-506, ll.540-546)
+# The following code is to train the TVspecNET model on .mat data type images (see data generator). The default loss functional is set to the 
+# normalised MSE between the ground truth (GT) and the network output. However, we include code for adding the normalised MSE of the image 
+# gradients of the GT and network output, and the MSE between the input image and the sum over all output images to the loss functional. 
+# Please uncomment the corresponding lines (see ll.414-419, ll.440-445, ll.474-479, ll.499-504, ll.537-543)
 #
 # We additionally enable training of F-TVspecNET (choose --model 'F-TVspecNET') and U-TVspecNET (choose --model 'U-TVspecNET').
 #
 # PyTorch Version 1.1.0 used for this implementation. 
 # TensorboardX is used for visualisation during training of both the plot of the loss function and the network outputs during training.
-# ----------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------------------------
 
 
 import argparse
