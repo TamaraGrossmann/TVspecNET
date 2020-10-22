@@ -66,6 +66,8 @@ We additionally enable testing of F-TVspecNET (choose --model 'F-TVspecNET') and
 
 You can find the pretrained model for TVspecNET (trained on a subset of MS COCO [[1]](#1) according to the default settings of the training code provided) in [/models/TVspecNET](https://github.com/TamaraGrossmann/TVspecNET/tree/main/models/TVspecNET/).
 
+The images for this pre-trained model have been loaded in a range of [0,255] and standardised by subtracting the mean (115.4217) and dividing by the standard deviation (66.917) of the training dataset. When using this model, make sure to have done this pre-processing step with your own data as it is currently not included in the evaluation code.
+
 ## Results
 
 Our model achieves the following performance on a subset of MS COCO [[1]](#1):
