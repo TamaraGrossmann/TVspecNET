@@ -13,9 +13,8 @@ If you use this code, please cite:
     title={Deeply Learned Spectral Total Variation Decomposition},
     author={Tamara G. Grossmann and Yury Korolev and Guy Gilboa and Carola-Bibiane Schönlieb},
     year={2020},
-    eprint={2006.10004},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+    journal={Advances in Neural Information Processing Systems},
+    volume={33}
   }
 ```
 
